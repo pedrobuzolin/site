@@ -34,7 +34,7 @@
         $extensao = strtolower(substr($_FILES["imagem"]["name"], -4));
 
         $novo_nome = md5(time()) . $extensao;
-        $caminho = "C:/xampp/htdocs/site/assets/img_prod/"; 
+        $caminho = "./assets/img_prod/"; 
 
         move_uploaded_file($_FILES['imagem']['tmp_name'], $caminho.$novo_nome);
 
