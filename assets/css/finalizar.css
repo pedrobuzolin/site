@@ -1,0 +1,21 @@
+.finalizar_conteudo{
+    display: flex;
+    justify-content: center;
+}
+
+.finalizar_img{
+    display: flex;
+    justify-content: center;
+}
+
+.finalizar_opcao{
+    display: flex;
+    margin: 1em;
+    padding-top: 0.5em;
+    font-family: var(--fonte-secundaria);
+    flex-direction: row;
+}
+
+.finalizar_radio{
+    display: flex;
+}

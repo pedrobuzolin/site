@@ -1,0 +1,283 @@
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-family: var(--fonte-secundaria);
+}
+
+th,
+td {
+    border: 1px solid rgb(218, 218, 218);
+    padding: 4px 4px;
+    font-size: 0.65em;
+}
+
+th {
+  vertical-align: bottom;
+  font-weight: 500;
+}
+
+thead > tr:nth-of-type(2) {
+    border-bottom: 2px solid rgb(140 140 140);
+}
+
+tbody > tr > th:first-of-type {
+    text-align: left;
+}
+
+tbody > tr > td:last-of-type {
+    text-align: center;
+}
+  
+tfoot th,
+tfoot td {
+    text-align: right;
+    font-weight: bold;
+    font-size: 0.7em;
+}
+
+.tabela_celula_carrinho_cabecalho{
+    width: 7em;
+    margin: 1em;
+    font-size: 0.6em;
+}
+
+.tabela_celula_carrinho_conteudo{
+    font-size: 0.6em;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.tabela_celula_carrinho_conteudo_indice{
+    font-size: 0.6em;
+    width: 2em;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.tabela_rodape{
+    display: flex;
+    justify-content: right;
+    font-weight: bold;
+    font-size: 0.8em;
+}
+
+.tabela_rodape_celula{
+    width: 5em;
+}
+
+.tabela{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    z-index: 0;
+    margin-top: 4em;
+    margin-bottom: auto;
+}
+
+.tabela_pesquisa{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+    width: auto;
+    max-width: 20em;
+}
+
+.tabela_input{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: var(--fonte-secundaria);
+    width: auto;
+}
+
+.tabela_campo{
+    margin-top: 0.3em;
+    width: 10em;
+    height: 2em;
+    border-radius: 10px;
+    border-width: 0.1em;
+}
+
+.tabela_conteudo{
+    margin: 0.5em;
+    width: 100%;
+    overflow-x: auto;
+}
+
+.tabela_listagem{
+    font-family: var(--fonte-secundaria);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0.3em;
+}
+
+.tabela_linha{
+    padding: 0.3em;
+    width: auto;
+}
+
+.tabela_celula{
+    min-width: 4.5em;
+    width: auto;
+    padding-left: 0.2em;
+    padding-bottom: 0.1em;
+    font-size: 1em;
+    text-align: center;
+}
+
+.tabela_celula-conteudo{
+    min-width: 4.5em;
+    width: auto;
+    padding-left: 0.2em;
+    padding-bottom: 0.1em;
+    font-size: 0.7em;
+    text-align: start;
+}
+
+.id{
+    min-width: 3em;
+}   
+
+.tabela_link{
+    text-decoration: none;
+}
+
+@media screen and (min-width: 1024px){
+    th,
+    td {
+        padding: 4px 6px;
+        font-size: 1em;
+    }
+
+    tfoot th,
+    tfoot td {
+        font-size: 1.2em;
+    }
+
+    .tabela_celula_carrinho_cabecalho{
+        font-size: 1em;
+        padding-left: 0;
+    }
+
+    .tabela_celula_carrinho_conteudo,
+    .tabela_celula_carrinho_conteudo_indice{
+        width: 7em;
+        font-size: 1em;
+    }
+
+    .tabela_rodape{
+        font-size: 1em;
+    }
+
+    .tabela_pesquisa{
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 10px;
+        max-width: 35em;
+    }
+    
+    .tabela_campo{
+        width: 20em;
+        height: 2em;
+        border-radius: 10px;
+        border-width: 0.1em;
+    }
+    
+    .tabela_conteudo{
+        margin: 0.5em;
+    }
+    
+    .tabela_listagem{
+        font-family: var(--fonte-secundaria);
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 0.3em;
+    }
+
+    .tabela_linha{
+        padding: 0.3em;
+        width: auto;
+    }
+    
+    .tabela_celula{
+        min-width: 5em;
+        width: auto;
+        padding-left: 0.4em;
+        padding-bottom: 0.3em;
+        font-size: 1.5em;
+        text-align: center;
+    }
+    
+    .tabela_celula-conteudo{
+        min-width: 5.5em;
+        width: auto;
+        padding-left: 0.4em;
+        padding-bottom: 0.3em;
+        font-size: 1em;
+        text-align: start;
+    }
+    
+    .id{
+        min-width: 3em;
+    }    
+}
+
+@media screen and (min-width: 1728px) {
+    .tabela_pesquisa{
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .tabela_campo{
+        width: 20em;
+        height: 2em;
+        border-radius: 10px;
+        border-width: 0.1em;
+    }
+    
+    .tabela_conteudo{
+        margin: 0.5em;
+    }
+
+    .tabela_listagem{
+        font-family: var(--fonte-secundaria);
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 0.3em;
+    }
+    
+    .tabela_linha{
+        padding: 0.3em;
+        width: auto;
+    }
+    
+    .tabela_celula{
+        min-width: 7em;
+        width: auto;
+        padding-left: 1em;
+        padding-bottom: 0.75em;
+        font-size: 1.5em;
+        text-align: center;
+    }
+    
+    .tabela_celula-conteudo{
+        min-width: 7em;
+        width: auto;
+        padding-left: 0.9em;
+        padding-bottom: 0.75em;
+        font-size: 1.1em;
+        text-align: start;
+    }
+    
+    .id{
+        min-width: 3em;
+    }
+}

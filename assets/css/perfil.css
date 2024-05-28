@@ -1,0 +1,11 @@
+.conteudo-perfil{
+    position: absolute;
+    z-index: 1;
+    width: 10em;
+}
+
+.suporte{
+    display: flex;
+    justify-content: center;
+    margin-top: 7em;
+}

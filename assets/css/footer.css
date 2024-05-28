@@ -1,0 +1,86 @@
+.rodape{
+    display: flex;
+    background-color: var(--cor-principal);
+    padding: 0.8em;
+    justify-content: space-between;
+}
+
+.rodape__conteudo{
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+}
+
+.rodape__titulo{
+    color:var(--cor-fonte-secundaria);
+
+    font-size: 1.25em;
+}
+
+.rodape__logo{
+    width: 3em;
+    height: 3em;
+}
+
+.rodape__endereco{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 0.6em;
+}
+
+.rodape__redesociais-titulo{
+    font-size: 0.6em
+}
+
+.rodape__redesociais-lista{
+    display: flex;
+}
+
+.rodape__redesociais-img{
+    width: 1em;
+    height: 1em;
+}
+
+@media screen and (min-width: 1024px){
+    .rodape{
+        align-items: center;
+    }
+
+    .rodape_texto{
+        margin-top: 1.3em;
+    }
+    
+    .rodape__titulo{
+        font-size: 1.5em;
+    }
+
+    .rodape__logo{
+        width: 5em;
+        height: 4em;
+    }
+
+    .rodape__endereco{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        font-size: 1em;
+        margin-left: 7.5em;
+    }
+
+    .rodape__redesociais-titulo{
+        display: flex;
+        font-size: 1em;
+    }
+    
+    .rodape__redesociais-lista{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .rodape__redesociais-img{
+        display: flex;
+        width: 2em;
+        height: 2em;
+    }
+}
