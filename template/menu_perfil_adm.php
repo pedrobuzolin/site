@@ -19,6 +19,10 @@
                 <a href="./adm_secoes.php" class="menu_link">Seções</a>
             </li>
             <li class="menu_perfil-lista-item">
+                <img src="assets/img/alterarcadastro.svg" alt="Clientes" class="menu_perfil-lista-img">
+                <a href="./adm_clientes.php" class="menu_link">Clientes</a>
+            </li>
+            <li class="menu_perfil-lista-item">
                 <img src="assets/img/cesta.svg" alt="Vendas" class="menu_perfil-lista-img">
                 <a href="adm_vendas.php" class="menu_link">Vendas</a>
             </li>
