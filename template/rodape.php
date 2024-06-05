@@ -14,10 +14,10 @@
             <h2 class="rodape__redesociais-titulo">Redes Sociais</h2>
             <ul class="rodape__redesociais-lista">
                 <li>
-                    <a href="#" class="rodape__redesociais-link"><img src="assets/img/facebook.svg" alt="Logo Facebook" class="rodape__redesociais-img"></a>
+                    <a href="https://www.facebook.com/?locale=pt_BR" class="rodape__redesociais-link"><img src="assets/img/facebook.svg" alt="Logo Facebook" class="rodape__redesociais-img"></a>
                 </li>
                 <li>
-                    <a href="#" class="rodape__redesociais-link"><img src="assets/img/instagram.svg" alt="Logo Instagram" class="rodape__redesociais-img"></a>
+                    <a href="https://www.instagram.com/" class="rodape__redesociais-link"><img src="assets/img/instagram.svg" alt="Logo Instagram" class="rodape__redesociais-img"></a>
                 </li>
             </ul>
             <div>
